@@ -1,6 +1,8 @@
 @import "bootstrap-sprockets";
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
 $font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 $body-bg: #ECECEC;
@@ -23,6 +25,11 @@ $jumbotron-bg: white;
 
 a:hover{
     text-decoration:none !important;
+}
+
+.navbar-brand{
+    font-family: pacifico;
+    font-size: 1em;
 }
 
 
